@@ -11,15 +11,9 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <body className="antialiased">
         {/* 🎵 Background music */}
-        <iframe
-          src="WhatsApp Audio 2025-08-22 at 00.24.03_5eb58c15.mp3 (online-audio-converter.com) (1).mp3"
-          width="0"
-          height="0"
-          scrolling="no"
-          frameBorder="0"
-          loading="lazy"
-          allow="autoplay"
-        ></iframe>
+        <audio autoPlay loop>
+          <source src="src/app/WhatsApp Audio 2025-08-22 at 00.24.03_5eb58c15.mp3 (online-audio-converter.com) (1).mp3" type="audio/mpeg" />
+        </audio>
 
         {children}
       </body>
