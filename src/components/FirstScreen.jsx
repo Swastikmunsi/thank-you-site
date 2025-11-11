@@ -77,7 +77,7 @@ export default function FirstScreen({ onNext }) {
                     }}
                     transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY }}
                 >
-                    straight from my heart💖
+                    straight from my heart babuuu💖
                 </motion.p>
             </motion.div>
 
@@ -93,7 +93,7 @@ export default function FirstScreen({ onNext }) {
 
                 <div className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0" />
                 <span className="relative z-10 flex gap-2">
-                    Let me tell you
+                    Let me tell you...
                     <Heart size={20} fill="currentColor" className="mt-0.5" />
                 </span>
             </motion.button>
