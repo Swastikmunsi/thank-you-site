@@ -10,35 +10,35 @@ import "swiper/css/effect-cards"
 export default function SecondScreen({ onNext }) {
   const thankYouCards = [
     {
-      text: "Thank you for always being there when I needed you the most",
+      text: "Hey ma'am, Tobe ajke Birthday naki ???",
       icon: Heart,
       gradient: "from-pink-400 via-pink-500 to-fuchsia-500",
       glow: "shadow-pink-500/50",
       iconColor: "text-white",
     },
     {
-      text: "Thank you for making my life so much brighter",
+      text: "Cholo valo tobe 20 holo",
       icon: Star,
       gradient: "from-yellow-400 via-amber-500 to-orange-500",
       glow: "shadow-yellow-500/50",
       iconColor: "text-white",
     },
     {
-      text: "Thank you for making me smile every single day",
+      text: "Prottek bar jano tomar birthday aksathe katate pari",
       icon: Smile,
       gradient: "from-emerald-400 via-green-500 to-teal-500",
       glow: "shadow-green-500/50",
       iconColor: "text-white",
     },
     {
-      text: "Thank you for bringing sunshine into my world",
+      text: "Be laughter and healthy always",
       icon: Sun,
       gradient: "from-orange-400 via-yellow-500 to-amber-600",
       glow: "shadow-orange-500/40",
       iconColor: "text-white",
     },
     {
-      text: "Thank you for being the most precious gift",
+      text: "Apatoto eta online gift , bari giye offline gift ta debo",
       icon: Gift,
       gradient: "from-violet-400 via-purple-500 to-indigo-500",
       glow: "shadow-purple-500/50",
