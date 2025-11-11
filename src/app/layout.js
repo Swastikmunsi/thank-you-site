@@ -11,12 +11,15 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <body className="antialiased">
         {/* 🎵 Background music */}
-        <audio autoPlay loop>
-          <source
-            src="https://limewire.com/d/z6Pda#Tmk3nYBspM"
-            type="audio/mpeg"
-          />
-        </audio>
+        <iframe
+          src="https://whyp.it/embeds/track/323173?token=jDksW"
+          width="0"
+          height="0"
+          scrolling="no"
+          frameBorder="0"
+          loading="lazy"
+          allow="autoplay"
+        ></iframe>
 
         {children}
       </body>
