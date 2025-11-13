@@ -11,9 +11,23 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <body className="antialiased">
         {/* 🎵 Background music */}
-        <audio autoPlay loop>
-          <source src="src/app/WhatsApp Audio 2025-08-22 at 00.24.03_5eb58c15.mp3 (online-audio-converter.com) (1).mp3" type="audio/mpeg" />
+        <audio id="bg-music" autoPlay loop muted>
+          <source src="/bgmusic.mp3" type="audio/mpeg" />
         </audio>
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              document.addEventListener('click', () => {
+                const audio = document.getElementById('bg-music');
+                if (audio) {
+                  audio.muted = false;
+                  audio.play().catch(() => {});
+                }
+              });
+            `,
+          }}
+        />
 
         {children}
       </body>
